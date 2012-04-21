@@ -1,1 +1,10 @@
 LICENSE: Same as Ruby
+
+This is a way to build ruby as a static library for inclusion in an iOS application.
+
+Inside the ruby folder are directions to build a static library for the following ruby versions:
+  * 1.8.7 p72
+  
+Instructions for building a static library for each version are in their respective folders.
+
+It is assumed that this will be done on a Mac, running OS X Lion, with Xcode Version 4.3.2 and the command line tools installed.
