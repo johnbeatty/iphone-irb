@@ -1,6 +1,6 @@
 #!/bin/sh
 
-RANLIB=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/ranlib
+RANLIB=/usr/bin/ranlib
 
 $RANLIB ext/bigdecimal/bigdecimal.a 
 $RANLIB ext/dbm/dbm.a ext/digest/digest.a 

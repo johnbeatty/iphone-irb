@@ -1,6 +1,6 @@
 How to Build ruby-1.8.7-p72 for the iPhone
 
-$ wget http://ftp.iij.ad.jp/pub/lang/ruby/1.8/ruby-1.8.7-p72.tar.bz2
+$ curl -O http://ftp.iij.ad.jp/pub/lang/ruby/1.8/ruby-1.8.7-p72.tar.bz2
 
 place the tarball in the same folder as patch-for-iphone-ruby-1.8.7-p72, build.sh, extranlib
 
