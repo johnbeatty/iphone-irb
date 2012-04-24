@@ -1,0 +1,23 @@
+How to Build ruby-1.9.3-p125 for the iPhone
+
+$ curl -O http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.bz2
+
+place the tarball in the same folder as patch-for-iphone-ruby-1.9.3-p125, build.sh, extranlib
+
+$ tar xvjf ruby-1.9.3-p125.tar.bz2
+$ cd ruby-1.9.3-p125
+$ patch -p1 -d . < ../patch-for-iphone-ruby-1.9.3-p125 
+$ sh ../build.sh 
+$ make
+
+if there are these errors during make, do the following:
+
+If you stop at “fake.rb”
+$ cat /dev/null > fake.rb
+$ make
+
+If you stop at “archive has no table of contents”
+$ sh ../extranlib.sh
+$ make
+
+you should find a libruby-static.a file in the ruby-1.9.3-p125 directory
