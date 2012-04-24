@@ -4,6 +4,7 @@ This is a way to build ruby as a static library for inclusion in an iOS applicat
 
 Inside the ruby folder are directions to build a static library for the following ruby versions:
   * 1.8.7 p72
+  * 1.9.3 p125
   
 Instructions for building a static library for each version are in their respective folders.
 
